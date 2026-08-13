@@ -6,15 +6,29 @@ load_dotenv()
 
 client = OpenAI()
 
+# response = client.responses.create(
+#     model='gpt-5.5',
+#     input="Explain different ways to use openai's response apis"
+# )
+
+
+# print(response.output_text)
+
 response = client.responses.create(
-    model='gpt-5.5',
-    input="Explain different ways to use openai's response apis"
+    model='gpt-4.1-mini',
+    instructions="you are helpful teacher, give answer in simple words in one sentence",
+    input=[
+        {
+            "role": "user",
+            "content": "What is the difference between ai agent and chatbot?"
+        }
+    ]
 )
 
 
-print(response.output_text)
+print(response.output_text) # output: An AI agent is a smart program that can perform tasks or make decisions, while a chatbot is a type of AI agent designed specifically to have conversations with people.
 
-# OUTPUT BELOW
+# OUTPUT BELOW first response
 
 '''
 OpenAI’s **Responses API** is the newer general-purpose API for generating model outputs. It can handle normal chat, structured JSON, tool use, multimodal input, streaming, and longer-running tasks.
