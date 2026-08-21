@@ -1,0 +1,58 @@
+(.venv) PS C:\Users\gajan\Desktop\Agentic AI Foundations\04_OpenAIAgentStack> python customer_support.py
+----------------------------------------------------------------------
+CUSTOMER SUPPORT AGENT SYSTEM - SIMULATION
+----------------------------------------------------------------------
+
+Customer: Where is my Order ORD-001?
+Order_Status_Agent: Your order ORD-001 for Wireless Headphones has been shipped. It is estimated to arrive by August 28. If you need any more information, feel free to ask!
+----------------------------------------------------------------------
+
+
+Customer: I want a refund for Order ORD-001. The headphones arrived damaged.
+Refund_Agent: I'm sorry to hear that your headphones arrived damaged. To help you with the refund process, could you please confirm the order ID once more? Also, could you provide a brief reason for the refund request? You mentioned damage, but any additional details would be helpful.
+----------------------------------------------------------------------
+
+
+Customer: What is Amazon's return policy in India?
+FAQ_Agent: Amazon India's return policy allows customers to return most items within a specified period, typically ranging from 2 to 30 days, depending on the product category. Some items are marked as non-returnable; these exceptions are clearly indicated on the product detail page. ([returnpolicies.info](https://www.returnpolicies.info/en/retailers/amazon-in?utm_source=openai))
+
+**Return Windows by Product Category:**
+
+- **Electronics:** Generally, a 7-day return window applies, with replacements offered for defective items. ([swcybernetics.in](https://swcybernetics.in/knowledge-base/amazon-return-policy-sellers-guide-india-2026?utm_source=openai))
+
+- **Fashion & Apparel:** Returns are accepted within 10 to 30 days, depending on the specific item. ([swcybernetics.in](https://swcybernetics.in/knowledge-base/amazon-return-policy-sellers-guide-india-2026?utm_source=openai))
+
+- **Books:** A 10-day return window is provided. ([swcybernetics.in](https://swcybernetics.in/knowledge-base/amazon-return-policy-sellers-guide-india-2026?utm_source=openai))
+
+- **Groceries:** Typically non-returnable, with refunds issued only if damaged upon delivery. ([zlash.ai](https://zlash.ai/return-policy/amazon?utm_source=openai))
+
+**Conditions for Returns:**
+
+- Items must be in original condition, including all tags, accessories, and packaging.
+
+- Products should not be damaged while in your possession.
+
+- The product must not differ from what was shipped to you.
+
+**Return Process:**
+
+1. Log in to your Amazon India account.
+
+2. Navigate to 'Returns & Orders' and select the item you wish to return.
+
+3. Choose a reason for the return and follow the prompts to schedule a pickup or drop-off.
+
+4. Once the item is received and processed, a refund will be issued to your original payment method.
+
+For a visual guide on returning or replacing products on Amazon India, you can watch the following video:
+
+[How to Return or Replace Products on Amazon India](https://www.youtube.com/watch?v=1Z4Zj7h7Oq0&utm_source=openai)
+ 
+----------------------------------------------------------------------
+
+
+Customer: Give Java code to print the first 10 natural numbers.
+Blocked: This doesn't appear to be a customer support question.
+----------------------------------------------------------------------
+
+(.venv) PS C:\Users\gajan\Desktop\Agentic AI Foundations\04_OpenAIAgentStack>   
